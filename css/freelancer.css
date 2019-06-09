@@ -291,6 +291,11 @@ header.masthead h2 {
   box-shadow: none !important;
 }
 
+.floating-label-form-group input:focus,
+.floating-label-form-group textarea:focus {
+  background-color: #18bc9c;
+}
+
 .floating-label-form-group label {
   font-size: 0.85em;
   line-height: 1.764705882em;
@@ -329,10 +334,19 @@ form .row:first-child .floating-label-form-group {
   padding-bottom: 5rem;
   background-color: #2C3E50;
   color: #fff;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .copyright {
   background-color: #1a252f;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 a {
